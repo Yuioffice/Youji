@@ -1,18 +1,22 @@
 {
-  "name": "youji",
+  "name": "koa2demo",
   "version": "1.0.0",
   "description": "",
-  "main": "mongodb.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@koa/router": "^9.4.0",
     "ejs": "^3.1.5",
-    "express": "^4.17.1",
     "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.1",
+    "koa2-cors": "^2.0.6",
     "mongoose": "^5.10.11"
   }
 }
